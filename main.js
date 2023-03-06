@@ -1,11 +1,15 @@
+
+// Inputs
 const circleTabs = document.querySelectorAll(' .circle')
 const startButton = document.querySelector('#start')
 const endButton = document.querySelector('#end')
 const closeButton = document.querySelector('#close')
 const overlay = document.querySelector('.overlay')
+// Outputs
 const scoreUpdate = document.querySelector('#score')
 const modalScore = document.querySelector('.scoreEnd')
 const endText = document.querySelector('#endText')
+// Audio
 const audioClick = new Audio('mixkit-game-click-1114.mp3')
 const audioEnd = new Audio('failfare-86009.mp3')
 let score = 0
@@ -33,7 +37,7 @@ const clickCircle = (i) => {
   miss = 0
   score += 2
   scoreUpdate.textContent = score
-  console.log(i)
+  // console.log(i)
 }
 const enableCircles = () => {
   circleTabs.forEach(circle => {
@@ -91,7 +95,7 @@ const endGame = () => {
   } else {
     endText.textContent = 'Insane!!! You are a savior of this planet.'
   }
-  console.log('game ended')
+  // console.log('game ended')
   playSoundEnd()
 }
 const resetGame = () => {
