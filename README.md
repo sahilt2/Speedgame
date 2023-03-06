@@ -1,8 +1,22 @@
 # Speedgame
 
 ## About game
- The theme of this game is to click as much circle as possible; the circle is moving; the speed of moving circle increases with time
- There is start and end button, and when the game ends a modal is displayed with score and some message
+- Build a layout with HTML and CSS.
+- Heading, a placeholder for the score, circles, and buttons for the start and end game.
+- Style with space theme
+- Made a start and end game functions
+- Made circles clickable.
+- Update the score with each circle click
+- Show the score on the page
+- Found a random number for the highlights (numbers from 1-4)
+- Made sure that one is not selected number is not twice in the row
+- Added timer for random number (setTimeout)
+- Increase speed in every new number
+- Made highlighted circle to change image 
+- Added check that the highlighted circle and clicked circle match
+- Disabled circle clicks before the game starts
+- Used conditions to display start and end buttons (start visible when the game is not running, and the end is showing while the game is running)-Add conditional game over message.
+- Added sounds to click, game start and game end functions.
  
  ## Live link
  https://public.bc.fi/s2300123/sahil_thapa/speedgame/
