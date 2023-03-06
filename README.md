@@ -17,6 +17,7 @@
 - Disabled circle clicks before the game starts
 - Used conditions to display start and end buttons (start visible when the game is not running, and the end is showing while the game is running)-Add conditional game over message.
 - Added sounds to click, game start and game end functions.
+- Eslints standard used
  
  ## Live link
  https://public.bc.fi/s2300123/sahil_thapa/speedgame/
