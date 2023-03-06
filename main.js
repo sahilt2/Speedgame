@@ -10,8 +10,8 @@ const scoreUpdate = document.querySelector('#score')
 const modalScore = document.querySelector('.scoreEnd')
 const endText = document.querySelector('#endText')
 // Audio
-const audioClick = new Audio('mixkit-game-click-1114.mp3')
-const audioEnd = new Audio('failfare-86009.mp3')
+const audioClick = new Audio('./audio/mixkit-game-click-1114.mp3')
+const audioEnd = new Audio('./audio/failfare-86009.mp3')
 let score = 0
 let speed = 1000
 let active = 0
