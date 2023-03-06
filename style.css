@@ -18,6 +18,9 @@ body {
   justify-content: space-around;
   /*   max-width: 1200px; */
 }
+h1 {
+  text-shadow: 3px 3px rgb(222, 12, 12);
+}
 main {
   display: flex;
   align-items: center;
