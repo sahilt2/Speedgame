@@ -15,7 +15,8 @@
 - Made highlighted circle to change image 
 - Added check that the highlighted circle and clicked circle match
 - Disabled circle clicks before the game starts
-- Used conditions to display start and end buttons (start visible when the game is not running, and the end is showing while the game is running)-Add conditional game over message.
+- Used conditions to display start and end buttons (start visible when the game is not running, and the end is showing while the game is running)
+- Added conditional game over message.
 - Added sounds to click, game start and game end functions.
 - Eslints standard used
  
