@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("pics/space.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  color: #fe6c03;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*   max-width: 1200px; */
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header p {
+  margin: 4rem;
+}
+
+.circle_tab {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  justify-content: space-between;
+}
+.circle {
+  background-color: aliceblue;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.circle.active {
+  background-image: url(pics/alienship.png);
+  background-color: #c7b8bf;
+  /*   height: 80px; */
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 0.2rem white solid;
+  box-shadow: 0 0 5px rgb(43, 255, 0);
+}
+button {
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+
+  padding: 1rem 2rem;
+  font-family: inherit;
+  color: #bc560d;
+
+  cursor: pointer;
+}
+.overlay {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000080;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: #c7b8bf;
+  padding: 2rem;
+  width: 40%;
+  height: 25%;
+  border-radius: 10px;
+  position: relative;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+.modal button {
+  border-radius: 2px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  text-align: center;
+  background-color: transparent;
+}
+.modal.scoreEnd {
+  font-size: 1.5rem;
+}
+.hidden {
+  display: none;
+}

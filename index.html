@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speedgame</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Speedgame</h1>
+      <div>
+        <p>Howdy!!! Brave explorer, Our planet is under attack by Aliens.</p>
+        <p>Distroy the moving alien ships and save our planet</p>
+      </div>
+    </header>
+    <main>
+      <div>
+        <p>Your score is: <span id="score"></span></p>
+      </div>
+      <section class="game">
+        <div class="circle_tab">
+          <div class="circle" id="circle1">
+            <p><!-- 1 --></p>
+          </div>
+          <div class="circle" id="circle2">
+            <p><!-- 2 --></p>
+          </div>
+          <div class="circle" id="circle3">
+            <p><!-- 3 --></p>
+          </div>
+          <div class="circle" id="circle4">
+            <p><!-- 4 --></p>
+          </div>
+        </div>
+        <button id="start">Start Game</button>
+        <button id="end" class="hidden">End Game</button>
+      </section>
+      <div class="overlay">
+        <div class="modal">
+          <p>Your score was <span class="scoreEnd">0</span></p>
+          <p><span id="endText"></span></p>
+          <button id="close">X</button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
